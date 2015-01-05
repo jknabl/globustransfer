@@ -20,7 +20,7 @@ def get_credentials(username, password):
   
   if status.has_key("access_token"):
     key = status["access_token"]
-    print "API Key is %s" % key
+    #print "API Key is %s" % key
     return key
   else:
     print "Error when getting credentials. Status is: %s" % status
